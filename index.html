@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+	<h1>The Wonderful world of
+		<br>
+		<span id="colorDisplay">RGB</span> 
+		<br>
+		Colors
+	</h1>
+	<p id="instructions">
+		Guess which RGB color is shown above!
+	</p>
+
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Normal</button>
+		<button class="mode">Hard</button>
+	</div>
+
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square hidden"></div>
+		<div class="square hidden"></div>
+		<div class="square hidden"></div>
+	</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
